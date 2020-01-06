@@ -14,5 +14,5 @@ def print_first_directors_movie_titles
    titles << directors_database[0][:movies][counter][:title]
   counter += 1 
   end
-  p title
+  puts titles
 end
